@@ -1,0 +1,27 @@
+{
+	"root": "e:\\nodejsWorkspace\\mercury\\",
+	"loggers": [{
+		"name": "debug",
+		"logFilePattern": "mercury-%s.log",
+		"datePattern": "yyyyMMddhhmm",
+		"interval": 60
+	},
+	{
+		"name": "info",
+		"logFilePattern": "mercury-%s.log",
+		"datePattern": "yyyyMMdd",
+		"interval": 86400
+	},
+	{
+		"name": "warn",
+		"logFilePattern": "mercury-%s.log",
+		"datePattern": "yyyyMMdd",
+		"interval": 86400
+	},
+	{
+		"name": "error",
+		"logFilePattern": "mercury-%s.log",
+		"datePattern": "yyyyMMdd",
+		"interval": 86400
+	}]
+}
